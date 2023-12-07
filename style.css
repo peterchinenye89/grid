@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    display: grid;
+    justify-content: center;
+    
+}
+ button{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.gridboxes{ 
+   display: grid;
+   grid-template-columns: 100px 100px 100px 100px;
+   border-color: white;
+   place-content: center ;
+   gap: 10px;
+   margin: 20px;
+  
+   
+}
+
+.grid a img src {
+    display: grid;
+    border: 1rem;
+    border-radius: 2rem;
+
+    height: 10px;
+    width: 10 px;
+}
+.progress{
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    text-transform: uppercase;
+    /* grid-template-columns: auto auto; */
+    /* gap: 40px; */
+}
+.score{
+    margin-left: 220px;
+}
